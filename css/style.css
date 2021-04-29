@@ -1,3 +1,8 @@
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
 body {
       font-family: 'Original Surfer', cursive;
       font-weight: bold;
@@ -6,10 +11,24 @@ body {
 }
 
 ul {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
       list-style: none;
 }
 ul li {
-      margin: 10px 0;
+      width: calc((100% / 5) - 40px);
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+      margin: 20px;
+      border-radius: 5px;
       text-shadow: 2px 2px #7a7a7a;
-      font-size: 20px;
+      font-size: 50px;
+      background-color: rgba(0,0,0,0.4);
+}
+ul li:hover {
+      transform: scale(1.1);
 }
