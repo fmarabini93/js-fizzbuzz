@@ -12,6 +12,7 @@ for (i=1; i<101; i++) {
       }
 }
 
+var ul = document.getElementById("numbers");
 for (i=0; i<num.length; i++) {
-      document.getElementById("numbers").innerHTML += "<li>" + num[i] + "</li>";
+      ul.innerHTML += "<li>" + num[i] + "</li>";
 }
