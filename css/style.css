@@ -1,0 +1,10 @@
+body {
+      display: flex;
+      font-weight: bold;
+      background-image: linear-gradient(to bottom right, #534BFD, #00A577);
+      color: #ffffff;
+}
+
+ul {
+      list-style: none;
+}
