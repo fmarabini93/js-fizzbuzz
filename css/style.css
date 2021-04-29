@@ -31,4 +31,5 @@ ul li {
 }
 ul li:hover {
       transform: scale(1.1);
+      background-color: rgba(0,0,0,0.6);
 }
